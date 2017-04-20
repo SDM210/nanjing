@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
-	
-	@RequestMapping(value="/hello")
-	@ResponseBody
-	public String hello(){
-		return "hello";
-	}
+
+    @RequestMapping(value = "/hello")
+    @ResponseBody
+    public String hello() {
+        return "hello";
+    }
 }
